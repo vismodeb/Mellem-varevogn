@@ -1,0 +1,247 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden !important;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden !important;
+}
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+/*      mainArea
+********************************** V */
+.mainArea {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+.MainArea_contain {
+  display: flex;
+}
+
+/*      mainArea_LeftSite
+********************************** V */
+.mainArea_LeftSite {
+  background: #e2e2e4;
+  width: 100%;
+  max-width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 150px 50px 50px;
+}
+.mainArea_LeftSite img {
+  max-width: 500px;
+}
+.mainArea_text {
+  max-width: 340px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.mainArea_text h1 {
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+}
+.mainArea_text span {
+  font-size: 68px;
+  line-height: 76px;
+  font-weight: 700;
+  color: #a81916;
+}
+.mainArea_text h4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.mainArea_text p {
+  max-width: 300px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*      mainArea_RightSite
+********************************** V */
+.mainArea_RightSite {
+  background: #ffffff;
+  width: 100%;
+  max-width: 60%;
+}
+.www_hi {
+  padding: 80px 0;
+  margin-left: -140px;
+}
+.container {
+  position: relative;
+  max-width: 980px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_box {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 10px solid #ffffff;
+  box-shadow: rgb(0, 0, 0) 8px 8px 10px;
+}
+.card {
+  padding: 40px 50px;
+  position: relative;
+  color: #000000;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.card h3 {
+  margin: 0 0 20px 0;
+  font-size: 60px;
+  color: #000;
+  border-bottom: 3px dashed #c3c2c2;
+}
+.card-2 h3 {
+  border-bottom: 3px dashed #ffffff !important;
+}
+.card h3 span {
+  font-size: 20px;
+  color: #414141;
+  font-weight: 400;
+}
+.card ul {
+  text-align: left;
+  margin: 0;
+  height: 450px;
+  font-family: "Open Sans", sans-serif;
+}
+.card ul li {
+  display: block;
+}
+.card ul li:not(:last-child) {
+  margin-bottom: 6px;
+}
+.card ul li.aval::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  font-size: 23px;
+  color: #77e100;
+  width: 30px;
+  display: inline-block;
+}
+.card .select {
+  cursor: pointer;
+  padding: 10px 70px;
+  border: none;
+  font-weight: 900;
+  background: rgb(168 25 22);
+  color: #efefef;
+  font-size: 18px;
+  font-family: inherit;
+  box-shadow: 0 8px 18px 4px #283d3b4d;
+  border-radius: 20px;
+  transition: all 360ms ease;
+}
+.card .select.active,
+.card .select:hover {
+  background: #90c53e;
+}
+.card .select.active {
+  margin: 60px 0 20px 0;
+}
+.card .select.active:hover {
+  background: rgb(168 25 22);
+}
+.hot-badge::after {
+  content: "PLUS DRIVE..";
+  position: absolute;
+  background: #a81916;
+  padding: 10px 54px;
+  box-shadow: 0 0 5px 3px #715e006e;
+  top: 26px;
+  right: -61px;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  transform: rotateZ(45deg);
+}
+.card-3 {
+  padding: 40px 30px 40px 66px;
+}
+.card-1,
+.card-3 {
+  border: 8px solid #a81916;
+}
+.card-2 {
+  background: #e7e6e9;
+  border: 4px solid #e7e6e9;
+}
+.card_box_1 {
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  z-index: 0;
+  transform: scale(0.9);
+}
+.card_box_2 {
+  position: relative;
+  z-index: 1;
+}
+.card_box_3 {
+  position: absolute;
+  right: -50px;
+  top: 50px;
+  z-index: 0;
+  transform: scale(0.9);
+}

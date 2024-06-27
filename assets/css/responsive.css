@@ -1,0 +1,159 @@
+@media all and (max-width: 1600px) {
+  .mainArea_LeftSite {
+    max-width: 36%;
+    padding: 100px 150px 50px 20px;
+  }
+  .container {
+    max-width: 930px;
+  }
+  .card {
+    padding: 40px 36px;
+  }
+  .card-1 {
+    padding: 40px 66px 40px 30px;
+  }
+  .card-3 {
+    padding: 40px 30px 40px 66px;
+  }
+  .www_hi {
+    margin-left: -100px;
+  }
+  .mainArea_LeftSite {
+    max-width: 40%;
+    padding: 100px 150px 50px 20px;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .mainArea_text {
+    margin-left: 38px;
+  }
+  .card-1 {
+    padding: 40px 66px 40px 20px;
+  }
+  .card-2 {
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 860px;
+  }
+  .www_hi {
+    padding: 50px 10px;
+  }
+  .mainArea_text span {
+    font-size: 62px;
+    line-height: 70px;
+  }
+  .www_hi {
+    padding: 50px 0px;
+  }
+}
+@media all and (max-width: 1300px) {
+  .www_hi {
+    margin-left: -125px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .MainArea_contain {
+    flex-direction: column;
+  }
+  .mainArea_LeftSite {
+    max-width: 100%;
+    padding: 40px 20px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+  .mainArea_text {
+    margin-left: 0;
+  }
+  .mainArea_LeftSite img {
+    max-width: 390px;
+  }
+  .mainArea_text h1 {
+    font-size: 52px;
+    line-height: 50px;
+  }
+  .mainArea_text span {
+    font-size: 56px;
+    line-height: 62px;
+  }
+  .www_hi {
+    margin-left: 0;
+  }
+  .mainArea_RightSite {
+    max-width: 100%;
+  }
+  .container {
+    max-width: 885px;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .container {
+    position: inherit;
+    flex-direction: column;
+  }
+  .card_box_1,
+  .card_box_3 {
+    position: inherit;
+  }
+  .card {
+    padding: 40px 64px;
+  }
+  .card ul {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .card h3 {
+    font-size: 52px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .mainArea_LeftSite img {
+    max-width: 340px;
+  }
+  .mainArea_LeftSite {
+    padding: 40px 15px;
+    gap: 15px;
+  }
+  .mainArea_text h1 {
+    font-size: 42px;
+  }
+  .mainArea_text span {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .mainArea_LeftSite {
+    padding: 24px 15px;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainArea_LeftSite img {
+    max-width: 250px;
+  }
+  .mainArea_text h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .mainArea_text span {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .card {
+    padding: 40px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .card {
+    padding: 40px 30px;
+  }
+}
