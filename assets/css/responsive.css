@@ -1,3 +1,16 @@
+@media all and (min-width: 1921px) {
+  .mainArea_RightSite,
+  .mainArea_LeftSite {
+    height: 100vh;
+  }
+}
+
+@media all and (max-width: 1920px) {
+  .mainArea_LeftSite {
+    padding: 100px 150px 50px 50px;
+  }
+}
+
 @media all and (max-width: 1600px) {
   .mainArea_LeftSite {
     max-width: 36%;
